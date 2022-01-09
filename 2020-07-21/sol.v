@@ -5,10 +5,10 @@ module XXX(
     input clock, reset_;
     inout d7_d0;
     output ior_, iow_;
-    output [3:0] a3_a0;
+    output [1:0] a1_a0;
 
-    reg [3:0] A3_A0;
-    assign a3_a0 = A3_A0;
+    reg [1:0] A1_A0;
+    assign a1_a0 = A1_A0;
 
     reg IOR_, IOW_;
     assign ior_ = IOR_;
