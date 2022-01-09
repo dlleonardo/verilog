@@ -1,6 +1,6 @@
 module XXX(
     clock, reset_, 
-    d7_d0, a3_a0, ior_, iow_
+    d7_d0, a1_a0, ior_, iow_
 );
     input clock, reset_;
     inout d7_d0;
